@@ -1,0 +1,7 @@
+member_id,claimd_id,date_of_service,provider_id,provider_name,service_code,claim_status,billed_amount,paid_amount,co_pay,dedeductible,denied_reason,hold_reason
+MEM1,Q1234,1/1/2024,PROV1,Mayo Clinic,ultra sound,Paid,100,80,20,0,,
+MEM1,Q1235,1/2/2024,PROV1,Mayo Clinic,MRI,Paid,200,180,20,0,,
+MEM1,Q1236,1/3/2024,PROV3,Baptist,ultra sound,Denied,100,,,,annual limit reached,
+MEM2,M2234,1/1/2024,PROV1,Mayo Clinic,ultra sound,Paid,110,80,30,0,,
+MEM2,M1235,1/2/2024,PROV1,Mayo Clinic,MRI,Paid,250,200,50,0,,
+MEM2,M1236,1/3/2024,PROV2,St Lukes,ultra sound,Held,100,,,,,authorization not received
